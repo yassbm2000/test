@@ -1,0 +1,277 @@
+{source}
+<head>
+    
+  <link rel="stylesheet" href="/js/jquery-ui.css">
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="/js/gr.js"></script> 
+  <script type="text/javascript" src="/js/exporting.js"></script>
+
+ 
+
+<script type="text/javascript" src="/js/export-csv.js"></script>
+
+ 
+
+<script type="text/javascript" src="/js/canvas-tools.js"></script>
+
+
+
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/parser_prodScNatParSousDomaineParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/options_prodScNatParSousDomaineParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/options_prodScNatParLifeScienceParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/parser_prodScNatParLifeScienceParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/options_prodScNatParHealthScienceParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/parser_prodScNatParHealthScienceParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/options_prodScNatParSocialScienceParUniv.js"> </script>
+  <script type="text/javascript" src="/js/prodSc/parDomaine/parUniv/parSousDiscipline/parser_prodScNatParSocialScienceParUniv.js"> </script>
+  
+  
+  
+ 
+<script type="text/javascript" src="/js/themes/grid.js"> </script>
+ <script>
+  
+  $(function() {
+    $( "#accordion" ).accordion({
+     collapsible : true,     
+     heightStyle: "content",
+     active:false    
+    });
+  });
+  $(function() {
+       $( "#tabs1" ).tabs({
+      collapsible: true
+    });
+  });
+   $(function() {
+       $( "#tabs2" ).tabs({
+      collapsible: true
+    });
+  });
+   $(function() {
+       $( "#tabs3" ).tabs({
+      collapsible: true
+    });
+  });
+   $(function() {
+       $( "#tabs4" ).tabs({
+      collapsible: true
+    });
+  });
+  </script> 
+</head>
+<body>
+  
+  <div id="accordion">
+        <h3>Physical Sciences</h3>
+             <div>
+               <p>
+                <centre><div id="containerProdScParUnivParPhysical" style="width:70%; height:400px"></div></centre>
+             </p>
+              <div id="tabs1">
+                  <ul>
+                    <li><a href="#containerProdScParUnivParChemicalEngineering">Chemical Engineering</a></li>
+                    <li><a href="#containerProdScParUnivParChemistry">Chemistry</a></li>
+                    <li><a href="#containerProdScParUnivParComputerScience">Computer Science</a></li>
+                    <li><a href="#containerProdScParUnivParEarthAndPlanetarySciences">Earth And Planetary Sciences</a></li>
+                    <li><a href="#containerProdScParUnivParEnergy">Energy</a></li>
+                    <li><a href="#containerProdScParUnivParEngineering">Engineering</a></li>
+                    <li><a href="#containerProdScParUnivParEnvironmentalScience">Environmental Science</a></li>
+                    <li><a href="#containerProdScParUnivParMaterialsScience">Materials Science</a></li>
+                    <li><a href="#containerProdScParUnivParMathematics">Mathematics</a></li>
+                    <li><a href="#containerProdScParUnivParPhysicsAndAstronomy">Physics And Astronomy</a></li>
+                   
+                  </ul>
+                     <p>
+                        <centre><div id="containerProdScParUnivParChemicalEngineering" style="width:60%; height:400px"></div></centre>
+                     </p>
+                     <p>
+                        <centre><div id="containerProdScParUnivParChemistry" style="width:60%; height:400px"></div></centre>
+                     </p>
+                     
+                     <p>
+                        <centre><div id="containerProdScParUnivParComputerScience" style="width:60%; height:400px"></div></centre>
+                     </p>
+                
+                     <p>
+                        <centre><div id="containerProdScParUnivParEarthAndPlanetarySciences" style="width:60%; height:400px"></div></centre>
+                     </p>
+                      <p>
+                        <centre><div id="containerProdScParUnivParEnergy" style="width:60%; height:400px"></div></centre>
+                     </p>
+                
+                <p>
+                        <centre><div id="containerProdScParUnivParEnvironmentalScience" style="width:60%; height:400px"></div></centre>
+                     </p>
+                <p>
+                        <centre><div id="containerProdScParUnivParMaterialsScience" style="width:60%; height:400px"></div></centre>
+                     </p>
+                
+                <p>
+                        <centre><div id="containerProdScParUnivParPhysicsAndAstronomy" style="width:60%; height:400px"></div></centre>
+                     </p>
+                <p>
+                        <centre><div id="containerProdScParUnivParMathematics" style="width:60%; height:400px"></div></centre>
+                     </p>
+                <p>
+                        <centre><div id="containerProdScParUnivParEngineering" style="width:60%; height:400px"></div></centre>
+                     </p>
+                
+            </div>
+    </div>
+    <!------------------- -->
+        <h3>Life Sciences</h3>
+           <div>
+                <p>
+                <centre><div id="containerProdScParUnivParLife" style="width:70%; height:400px"></div></centre>
+             </p>
+             <div id="tabs2">
+               <ul>
+                   <li><a href="#containerProdScParUnivParAgriculturalAndBiologicalScience">Agricultural And Biological Science</a></li>
+                 <li><a href="#containerProdScParUnivParBiochemistryGenetics">Biochemistry, Genetics</a></li>
+                 <li><a href="#containerProdScParUnivParImmunologyAndMicrobiology">Immunology and Microbiology</a></li>
+                 <li><a href="#containerProdScParUnivParNeuroscience">Neuroscience</a></li>
+                 <li><a href="#containerProdScParUnivParPharmacologyToxicology ">Pharmacology, Toxicology </a></li>
+                  
+               </ul>
+               <p>
+                  <centre><div id="containerProdScParUnivParAgriculturalAndBiologicalScience" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParBiochemistryGenetics" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParImmunologyAndMicrobiology" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParNeuroscience" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParPharmacologyToxicology" style="width:60%; height:400px"></div></centre>
+               </p>
+             </div>
+           </div>
+        <h3>Health Sciences</h3>
+            <div>
+                 <p>
+                <centre><div id="containerProdScParUnivParHealth" style="width:70%; height:400px"></div></centre>
+             </p>
+                <div id="tabs3">
+               <ul>
+                   <li><a href="#containerProdScParUnivParMedicine">Medicine</a></li>
+                 <li><a href="#containerProdScParUnivParNursing">Nursing</a></li>
+                 <li><a href="#containerProdScParUnivParVeterinary">Veterinary</a></li>
+                 <li><a href="#containerProdScParUnivParDentistry">Dentistry</a></li>
+                 <li><a href="#containerProdScParUnivParHealthProfessions">Health Professions </a></li>
+                </ul>
+                  <p>
+                  <centre><div id="containerProdScParUnivParMedicine" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParNursing" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParVeterinary" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParDentistry" style="width:60%; height:400px"></div></centre>
+               </p>
+               <p>
+                  <centre><div id="containerProdScParUnivParHealthProfessions" style="width:60%; height:400px"></div></centre>
+               </p>
+              </div>
+            </div>
+        <h3>Social Sciences </h3>
+            <div>
+                <p>
+                <centre><div id="containerProdScParUnivParSocial" style="width:70%; height:400px"></div></centre>
+             </p>   
+                 <div id="tabs4">
+               <ul>
+                   <li><a href="#containerProdScParUnivParArtsAndHumanities">Arts and Humanities</a></li>
+                 <li><a href="#containerProdScParUnivParBusinessManagement">Business and Management </a></li>
+                 <li><a href="#containerProdScParUnivParDecisionSciences">Decision Sciences</a></li>
+                 <li><a href="#containerProdScParUnivParEconomicsEconometrics">Economics and Econometrics </a></li>
+                 <li><a href="#containerProdScParUnivParPsychology">Psychology </a></li>
+                  <li><a href="#containerProdScParUnivParSocialSciences">Social Sciences </a></li>
+                </ul>
+                  
+                        <centre><div id="containerProdScParUnivParArtsAndHumanities" style="width:60%; height:400px"></div></centre>
+                     
+                   <p>
+                        <centre><div id="containerProdScParUnivParBusinessManagement" style="width:60%; height:400px"></div></centre>
+                     </p>
+                   <p>
+                        <centre><div id="containerProdScParUnivParDecisionSciences" style="width:60%; height:400px"></div></centre>
+                     </p>
+                   <p>
+                        <centre><div id="containerProdScParUnivParEconomicsEconometrics" style="width:60%; height:400px"></div></centre>
+                     </p>
+                   <p>
+                        <centre><div id="containerProdScParUnivParPsychology" style="width:60%; height:400px"></div></centre>
+                     </p>
+                   <p>
+                        <centre><div id="containerProdScParUnivParSocialSciences" style="width:60%; height:400px"></div></centre>
+                     </p>
+             </div>  
+            </div>
+  </div>
+  <br>
+
+
+  <!-- Highslide partie -->
+<link rel="stylesheet" type="text/css" href="/js/hs/hs.css" />
+<script type="text/javascript" src="/js/hs/hs-with-html.js"></script>
+<script type="text/javascript">
+  hs.graphicsDir = './js/hs/graphics/';
+    hs.outlineType = 'rounded-white';
+</script>
+
+<div>
+  Pour consulter la liste des abréviations des universités marocaines, veuillez cliquer sur le lien suivant :
+<a href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html' } )"     class="highslide">        
+  <b>Liste des universités</b>. </a>
+<div class="highslide-html-content" id="highslide-html">   
+    <div class="highslide-header">     
+    <ul>       
+      <li class="highslide-move">         
+        <a href="#" onclick="return false">Déplacer</a>       
+      </li>       
+      <li class="highslide-close">         
+        <a href="#" onclick="return hs.close(this)">Fermer</a>       
+      </li>     
+    </ul>   
+    </div>   
+    <div class="highslide-body">     
+     Liste des abréviations des universités marocaines :
+       <ul>
+         <li><b>UAE: </b> Université Abdelmalek Essadi-Tétouan </li>
+         <li> <b>UCAM: </b> Université Cadi Ayyad </li>
+         <li><b>UCD:</b> Université Chouaib Doukkali - El Jadida</li>
+         <li><b>UH2:</b> Université Hassan II  </li>
+         <li> <b>UH1: </b> Université Hassan 1er - Settat    </li>
+         <li> <b>UIT: </b> Université Ibn Tofail Kénitra </li>
+         <li><b>UIZ:</b> Université Ibn Zohr- Agadir </li>
+         <li> <b>UM5:</b> Université Mohammed V  </li>
+         <li><b>UMP: </b> Université Mohammed Premier Oujda</li>
+         <li><b>UMI:</b> Université Moulay Ismaïl - Meknes  </li>
+          <li><b>USMBA: </b>Université Sidi Mohamed Ben Abdellah-Fes  </li>
+         <li> <b>USMS: </b>Université Sultan Moulay Slimane - Beni Mellal </li> 
+      </ul>
+    </div>     
+    
+    <div class="highslide-footer">         
+      <div>             
+        <span class="highslide-resize" title="Resize">                 
+          <span></span>             
+        </span>         
+      </div>     
+    </div>
+  </div>  
+</div>
+  <!-- Fin highslide -->  
+
+<br>                   
+</body>
